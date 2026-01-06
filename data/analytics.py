@@ -27,7 +27,7 @@ try:
     print("="*65)
     
     # --- EXPORT SECTION ---
-    # Save to CSV and Excel
+    # Save to CSV and Excel inside the data folder
     report.to_csv(os.path.join(base_path, 'Final_ROIC_Report.csv'))
     report.to_excel(os.path.join(base_path, 'Executive_Performance_Summary.xlsx'))
     
@@ -36,6 +36,4 @@ try:
 
 except FileNotFoundError:
     print("❌ Error: Master_Consolidated_Fact.csv not found. Run pipeline.py first!")
-
-    2. **Execute Pipeline:** ```bash
-   python pipeline.py
+    
