@@ -6,6 +6,8 @@ This platform is an enterprise-grade financial engineering solution designed to 
 ---
 
 ## ⚙️ Solution Architecture
+
+
 The system follows a modular ETL (Extract, Transform, Load) design:
 
 1.  **`pipeline.py` (The ETL Engine):** * Ingests raw subsidiary ledgers (Excel/CSV).
@@ -15,17 +17,16 @@ The system follows a modular ETL (Extract, Transform, Load) design:
     * Calculates **NOPAT** and **Invested Capital**.
     * Generates automated Excel/CSV audit trails and performance visuals.
 
-
-
 ---
 
 ## 📊 Performance Intelligence
+
 ### **Global Portfolio ROIC Benchmarking**
 ![ROIC Analysis](images/roic.png)
 
 * **Top Performer:** **CryptoFlow (Brazil)** achieves an elite **167.86% ROIC**, demonstrating extreme capital efficiency.
 * **Strategic Risk:** **Terra-Grid** flags **$2.1M in idle assets** with 0% current yield, triggering an immediate capital reallocation review.
-* **Data Governance:** The system automatically identifies entities with missing Balance Sheet data (marked as `NaN`), streamlining the internal audit process.
+* **Data Governance:** The system automatically identifies entities with missing Balance Sheet data (marked as **NaN**), streamlining the internal audit process.
 
 ---
 
@@ -38,6 +39,7 @@ The system follows a modular ETL (Extract, Transform, Load) design:
 ---
 
 ## ⚖️ Governance & FX Methodology
+
 ### **FX Normalization Logic**
 * **Balance Sheet (Invested Capital):** Applied **Spot Rate** at period-end for accurate valuation of capital at risk.
 * **P&L (NOPAT):** Applied **Average Rate** over the reporting period to reflect operational flow.
