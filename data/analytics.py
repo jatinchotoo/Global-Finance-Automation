@@ -36,3 +36,6 @@ try:
 
 except FileNotFoundError:
     print("❌ Error: Master_Consolidated_Fact.csv not found. Run pipeline.py first!")
+
+    2. **Execute Pipeline:** ```bash
+   python pipeline.py
