@@ -6,8 +6,6 @@ This platform is an enterprise-grade financial engineering solution designed to 
 ---
 
 ## ⚙️ Solution Architecture
-
-
 The system follows a modular ETL (Extract, Transform, Load) design:
 
 1.  **`pipeline.py` (The ETL Engine):** * Ingests raw subsidiary ledgers (Excel/CSV).
@@ -21,7 +19,10 @@ The system follows a modular ETL (Extract, Transform, Load) design:
 
 ## 📊 Performance Intelligence
 
-### **Global Portfolio ROIC Benchmarking**
+### **Executive Summary (Raw Terminal Output)**
+![Terminal ROIC Results](images/roic_results.png)
+
+### **Visual Benchmarking**
 ![ROIC Analysis](images/roic.png)
 
 * **Top Performer:** **CryptoFlow (Brazil)** achieves an elite **167.86% ROIC**, demonstrating extreme capital efficiency.
